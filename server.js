@@ -14,7 +14,7 @@ require('dotenv').config();
 
 //Middleware
 app.use(logger('dev'));
-app.use(body-parser.json());
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(
